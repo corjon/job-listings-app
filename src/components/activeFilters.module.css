@@ -1,0 +1,33 @@
+.activeFilters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px 25px 20px 19px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+}
+
+.activeFilters .filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.activeFilters .clear p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.123077px;
+    color: #7C8F8F;
+}
+
+@media screen and (min-width: 1440px) {
+  .activeFilters .clear p:hover {
+    text-decoration-line: underline;
+    color: #5CA5A5;
+    cursor: pointer;
+  }
+}

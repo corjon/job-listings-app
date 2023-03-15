@@ -1,0 +1,32 @@
+.filterButton {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(92, 165, 165, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.filterButton p {
+  padding: 5px 11px 3px 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.123077px;
+  color: #5CA5A5;
+}
+
+.filterButton img {
+  padding: 9px;
+  width: 32px;
+  height: 32px;
+  background-color: #5CA5A5;
+}
+
+@media screen and (min-width: 1440px) {
+  .filterButton img:hover {
+    background-color: #2B3939;
+    cursor: pointer;
+  }
+}

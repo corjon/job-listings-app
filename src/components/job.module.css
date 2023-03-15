@@ -1,0 +1,169 @@
+.jobCard {
+  position: relative;
+  margin-bottom: 40px;
+  padding: 32px 24px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+}
+
+.jobHeader {
+  margin-bottom: 15px;
+}
+
+.jobHeader > img {
+  position: absolute;
+  top: -24px;
+  left: 24px;
+  width: 48px;
+  height: 48px;
+}
+
+.companyDetails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.company {
+  margin-right: 21px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 12px;
+  color: #5CA5A5;
+}
+
+.new,
+.featured {
+  padding: 7px 8px 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.107692px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.new {
+  background-color: #5CA5A5;
+}
+
+.featured {
+  background-color: #2B3939;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #2B3939;
+}
+
+.jobDetails {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jobDetails p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.123077px;
+  color: #7C8F8F;
+}
+
+.jobDetails span {
+  /* margin-bottom: 2px; */
+  width: 4px;
+  height: 4px;
+  background-color: #B7C4C4;
+  border-radius: 50%;
+}
+
+.jobInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-top: 1px solid #B7C4C4;
+  padding-top: 16px;
+}
+
+.jobInfo p {
+  padding: 5px 8px 3px 9px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.123077px;
+  color: #5CA5A5;
+  background-color: rgba(92, 165, 165, 0.1);
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 1440px) {
+  .jobCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 32px 40px 31px 0;
+  }
+
+  .jobHeader {
+    margin-bottom: 0;
+    margin-left: 152px;
+  }
+
+  .jobHeader > img {
+    top: 32px;
+    left: 40px;
+    width: 88px;
+    height: 88px;
+  }
+
+  .companyDetails {
+    margin-bottom: 10px;
+  }
+
+  .company {
+    margin-right: 7px;
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  h1 {
+    margin-bottom: 7px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  h1:hover {
+    color: #5CA5A5;
+    cursor: pointer;
+  }
+
+  .jobDetails {
+    gap: 16px;
+  }
+
+  .jobDetails p {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.138462px;
+  }
+
+  .jobInfo {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .jobInfo p:hover {
+    color: #FFFFFF;
+    background-color: #5CA5A5;
+    cursor: pointer;
+  }
+}
